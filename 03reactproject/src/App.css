@@ -1,0 +1,15 @@
+.box{
+    height: 200px;
+    width: 200px;
+    color:black;
+    background-color: rgb(175, 197, 237);
+    margin:10px;
+}
+.section{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+}
+.servicessection{
+    background-color: blueviolet;    
+}

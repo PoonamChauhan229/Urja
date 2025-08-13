@@ -1,18 +1,21 @@
-import './app.css'
-import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Products from './components/Products'
 import Services from './components/Services'
+import Footer from './components/Footer'
+import "./App.css"
 
-export function App() {
-
+function App() {
 
   return (
     <>
-      <Navbar/>
+
+    <h1>Test</h1>
+       <Navbar/>
       <Products/>
       <Services/>
-      <Footer/>
+      <Footer/>    
     </>
   )
 }
+
+export default App
