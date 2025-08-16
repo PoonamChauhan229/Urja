@@ -11,3 +11,147 @@ BROWSER >> REACT || HTML CSS JS || TRANSLATER/COMPILER >>WEBPACK+BABEL
 VITE >> MICROSOFT 
 https://vite.dev/guide/
 npm create vite@latest
+
+
+
+REACT >>FACEBOOK >> NEWS FEED SECTION 
+REACT COMPONENTS
+VIRTUAL DOM
+Styling in REACT(3 ways)
+MAP with array of Objects
+PROPS PASING
+PROPS Destructing
+PROPS --> Spread Operator
+CONDITIONAL RENDERING
+
+WEBSITE >> STATIC WEBSITE  
+BASICS OF REACT >> HOW CAN YOU DISPLAY THE DATA IN BROWSER
+
+Advanced REACT
+MANIPULATING THE DATA
+
+
+FACEBOOK  >>
+INSTAGRAM >>VIEW + POST + DM +LIKE+ COMMENT +SHARE +POST(EDIT+UPDATE+DELETE)
+COMMENT >>TRY TO UPDATE SOMETHING ON THE EXISTING POST >> INTERACTING
+LIKE    >>TRY TO UPDATE >>SHOW UP YOUR INTEREST
+POST    >>MODIFY THE ENTIRE DATA SET >> EDIT >> UPDATE >>DELETE >>MODIFY ENETIRE DATA SET
+MARKETING >> EVEN BUY >>CARD NO >>CVV NUMBER >>EXPIRAY DATE >>OTP >>ORDER PLACES >> 1000 ORDERS ARE PLACED >>ONE TO ONE 
+
+OPERATIONS >>INTERACTING WITH THE WEBSITE >>TALKING TO THE WEBSITE >> NO HUMAN INVOLVED >>BUILD
+DM >> HI HELLO HOW ARE YOU ? >> ANOTHER PERSON CHEXKING
+>> 6AM >> DELIVERED >> APP         >>9PM NIGHT  >> APPLICATION IS WORKING >> TALKING TO AN APP >> INTERACTING >> ONE TO MANY RELATONSHIP
+
+_______________________________________
+REACT >>Released by Facebook on May 29, 2013
+HOOKS >>February 2019
+
+2013 TO 2018 >>XXXXXXXXXX FUNCTIONAL COMPONENTS XXXXXXX
+CLASS COMPONENTS
+
+
+COMPONENTS
+CLASS COMPONENTS
+FUNCTIONAL COMPONENTS
+
+CLASS      >>OOPS      >>JAVASCRIPT >>2013 TO 2018 || 2020 >> NOBODY WAS LEARNING REACT  >>STATEFUL COMPONENTS (WEB APP + WEBSITE) >>LEARNING CURVE
+FUNCTIONAL >>FUNCTIONS >>JAVASCRIPT >>INTERACTING NOT POSSIBLE                           >>STATELESS COMPONENTS (WEBSITE)
+
+STATE MANAGEMENT >> COLD -- HOT 
+
+CLASS=""  ||CLASSNAME="" >> CLASS RESERVED KEYWORD >> CLASS COMPONENT
+NOBODY WAS LEARNING REACT >>10% more difficult >>slightly difficult than vanilla JS  >>
+
+REACT HOOKS >> IT GAVE WINGS TO FUNCTIONAL COMPONENTS >> U CAN MANAGE THE STATE >>LEARNING CURVE IS EASY 
+use KEYWORD >> HOOKS and ends with ()
+N NO OF FUNCTIONS >> SAVED FOR ALL
+useState()      >> very imp 
+useEffect()     >> very imp 
+useRef()
+useReducer()
+useMemo()
+useCallback()
+useNavigate()
+useHistory()
+useParams()
+many more ...........
+Prewritten function >> we just used it
+we rae not at all worried about how it is written
+
+functions >> number || array ||functions || object ||string ||Boolean  >>values
+
+
+const navigate=useNavigate()  >> returns a function
+navigate("path") //arguments is expecting a string >> "path"
+
+function number(){
+    return a*2
+}
+
+number(2) >> 4 
+//number(2) >> double >>4 >>8 >>16 >>32
+
+split("") >>splits up >> 
+
+split()
+
+function split(n,type)
+//count of digits/string more 1 >> split 
+
+
+useNavigate()  >> return function >> arguments as an string >>useNavigate("/path")
+useState()     >> array >> destructre the arrays
+
+const val=useState()  >> destructuring over the fly >> 
+val is nothing but an array
+
+
+const arr=[true,"hello",[3,4],{},test] // 3 values
+console.log(arr[2])
+function test(){
+    console.log(test) // do the testing
+}
+
+
+// destructing  >> count is difficult
+const [num1,num2,num3,num4,fun]=arr
+console.log(num1,num2,num3,num4,fun)
+
+
+let arr2=useState()
+arr2 hold 2 values
+initial value >>any datatype >> cold
+function >> responsible for changing the state >> hot
+
+const [state,setState]=useState() //syntax
+//state >> initil value >> as an argumnet to useSatate
+// setState >> changing the state
+
+
+
+// 100 //1000  >> 
+
+// 0 >1>2 changing the state
+const [count,setCount]=useState(0) //count=0
+const [name,setName]=useState("urja")   //name="urja"
+const [age,setAge]=useState([10])     //age=10
+const [email,setEmail]=useState({email:"urja@gmail.com"}) //email =urja@gmail.com
+const [pass,setPass]=useState(true)
+
+create a new application >>App.jsx create 20 variable >> inside the function  above the return statement
+
+
+//lat a=20 , var const for the variable
+// let b=45
+// le anme="poonam"
+// let 
+// useState >> React variable
+
+
+
+
+
+
+
+
+

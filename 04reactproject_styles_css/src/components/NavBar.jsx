@@ -6,7 +6,8 @@ function Navbar(){
         width:test==5?"75px":"5px",// conditional css
         height:"20px"
     }
-    const navigate =useNavigate()
+    const navigate =useNavigate()  // 1 hook
+    const [count,setCount]=useState(0)
 
     return(
         <>
