@@ -4,7 +4,7 @@ function JSVariables_Test(){
     const z=45 // cannot update >>Assignment to constant variable.
 
     return(
-        <>
+        <div>
             <hr/>
             <h1>UseState Hook-JS Variables</h1>
             <h2>{x}</h2>
@@ -20,7 +20,7 @@ function JSVariables_Test(){
             }}
             >Increase</button>
             <hr/>
-        </>
+        </div>
     )
 
 }
